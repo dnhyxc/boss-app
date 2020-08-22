@@ -1,0 +1,97 @@
+// * {
+//     touch-action: pan-y;
+// }
+
+.error-msg {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+
+.am-tab-bar {
+    // 是导航条始终在底部
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: inherit; //包裹内容，即高度被内容撑开
+}
+
+.sticky-header {
+    // 是标题始终在顶部
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+// .item1{
+//     height: inherit;
+// }
+
+// .item2{
+//     height: inherit;
+// }
+
+// .box{
+//     width:100%;
+//     position: fixed;
+//     height: inherit; 
+// }
+
+// .box2{
+//     width:100%;
+//     height: inherit; 
+// }
+
+
+// /*消息文本居右*/
+// #chat-page .chat-me .am-list-extra {
+//     flex-basis: auto;
+//     /*宽度包裹内容*/
+// }
+
+#chat-page .chat-target .am-list-content {
+    padding-left: 9px;
+    text-align: left;
+}
+
+#chat-page .chat-me .am-list-content {
+    padding-right: 15px;
+    text-align: right;
+}
+
+#chat-page .chat-box{
+    display: flex;
+    float: right;
+    width: 280px;
+}
+#chat-page .msg-box {
+    flex: 1;
+    white-space:normal;
+    width: 200px;
+    word-wrap: break-word;
+    // float: right;
+    // text-align: justify;
+    // background-color: paleturquoise;
+}
+#chat-page .Icon-box{
+    margin-left: 10px;
+    width: 15px;
+}
+
+#chat-page .chat-box1{
+    display: flex;
+    float: left;
+    width: 285px;
+}
+#chat-page .msg-box1{
+    flex: 1;
+    white-space:normal;
+    word-wrap:break-word;
+    width: 200px;
+    // background-color: salmon;
+}
+#chat-page .Icon-box1{
+    margin-right: 15px;
+    width: 15px;
+}
